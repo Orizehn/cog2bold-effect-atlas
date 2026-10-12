@@ -1,0 +1,63 @@
+{
+  "data_root": ".",
+  "run_dir": ".",
+  "basis_config": {
+    "basis_type": "identity",
+    "n_components": 0,
+    "random_seed": 1,
+    "extra_params": {}
+  },
+  "predictor_config": {
+    "model_type": "linear",
+    "output_dim": 42394,
+    "input_dim": null,
+    "hidden_dims": null,
+    "activation": "relu",
+    "dropout": 0.0,
+    "learning_rate": 0.001,
+    "weight_decay": 100.0,
+    "batch_size": 32,
+    "n_epochs": 30,
+    "grad_clip_norm": null,
+    "loss_mode": "coefficient",
+    "map_loss_type": "l2",
+    "random_seed": 1,
+    "cog_only": false,
+    "extra_params": {}
+  },
+  "data_config": {
+    "adapter_name": "ds000030_pamret",
+    "cog_base_cols": [
+      "cvlt_totcor",
+      "cvlt_ldf",
+      "mr_totalraw",
+      "ssp_totalraw"
+    ],
+    "adapter_kwargs": {},
+    "stim_encoding": "contrast",
+    "contrast_pairs": null,
+    "subject_session_filter": null,
+    "single_contrast": "correct_gt_control",
+    "force_recompute": false
+  },
+  "train_fraction": 0.85,
+  "random_seed": 1,
+  "contrast_pairs": null,
+  "plot_debug_plots": false,
+  "eval_correlation_configs": [
+    {
+      "name": "voxel",
+      "space": 0,
+      "atlas_n_rois": 200,
+      "roi_name_patterns": null
+    },
+    {
+      "name": "schaefer200",
+      "space": 1,
+      "atlas_n_rois": 200,
+      "roi_name_patterns": null
+    }
+  ],
+  "train_atlas_cfg": null,
+  "mean_map_offset": true
+}

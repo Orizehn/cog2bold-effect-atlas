@@ -1,0 +1,11 @@
+[server]
+maxUploadSize = 1          # the app takes no uploads
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"     # hide developer options from visitors
+
+[theme]
+base = "light"

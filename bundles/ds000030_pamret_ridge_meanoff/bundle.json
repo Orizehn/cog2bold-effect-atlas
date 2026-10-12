@@ -1,0 +1,21 @@
+{
+  "bundle_version": 1,
+  "run_name": "ds000030_pamret_linear_identity_0_ridge_corr_gt_ctrl_meanoff",
+  "title": "ds000030/pamret/ds000030_pamret_linear_identity_0_ridge_corr_gt_ctrl_meanoff",
+  "adapter_name": "ds000030_pamret",
+  "feature_names": [
+    "cvlt_totcor",
+    "cvlt_ldf",
+    "mr_totalraw",
+    "ssp_totalraw"
+  ],
+  "global_labels": [
+    "correct",
+    "incorrect",
+    "control"
+  ],
+  "n_train_subjects": 158,
+  "includes_target_maps": false,
+  "exported": "2026-10-12T00:24:12",
+  "attribution": "Data: UCLA Consortium for Neuropsychiatric Phenomics LA5c study, OpenNeuro ds000030 (CC0); Poldrack et al. (2016), Scientific Data 3:160110."
+}

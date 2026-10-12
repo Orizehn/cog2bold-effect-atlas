@@ -1,0 +1,31 @@
+{
+  "evaluation_method": "Leave-Two-Out Classification (correlation + MSE)",
+  "chance_level": 0.25,
+  "timestamp": "2026-09-23T10:45:27.589584",
+  "constraints": {
+    "max_pairs_per_contrast": 100,
+    "different_subjects": false,
+    "different_sessions": false,
+    "min_cog_distance": 5.0,
+    "unique_samples": false,
+    "same_diagnosis": false,
+    "p_threshold": null,
+    "p_threshold_mode": "zero",
+    "session_group_a": null,
+    "session_group_b": null,
+    "train_atlas_cfg": null
+  },
+  "overall": {
+    "total_pairs": 100,
+    "correct_pairs": 92,
+    "accuracy": 0.92,
+    "by_corr_config": {
+      "voxel": {
+        "correct_pairs": 92,
+        "accuracy": 0.92
+      }
+    }
+  },
+  "null_model": null,
+  "score_space": "deviation"
+}

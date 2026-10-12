@@ -1,0 +1,11 @@
+{
+  "voxel_correlation_mean": 0.06374791392977042,
+  "voxel_correlation_median": 0.06829674155373791,
+  "voxel_correlation_std": 0.20436970007986477,
+  "map_mse": 1.579481387377325,
+  "map_mae": 0.9799004943965821,
+  "cosine_similarity_mean": 0.358313451885014,
+  "cosine_similarity_std": 0.1412834341037055,
+  "explained_variance_r2": 0.1205797508961064,
+  "coeff_mse": 1.5794813873504738
+}

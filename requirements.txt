@@ -1,0 +1,13 @@
+# Cog2BOLD effect-atlas app on Streamlit Community Cloud.
+# No PyTorch: the published run is linear (PyTorch is only needed for MLP runs).
+# Pinned to the versions the app was tested with.
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.8.0
+pandas==3.0.3
+nibabel==5.4.2
+nilearn==0.13.1
+matplotlib==3.10.9
+tqdm==4.67.3
+streamlit==1.58.0
+plotly==6.7.0
